@@ -1,0 +1,5 @@
+steps:
+  - name: 生成32位密钥
+    run: |
+      node -e "console.log(crypto.randomBytes(16).toString('hex'))"env:
+        
