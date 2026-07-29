@@ -7,13 +7,13 @@
 // @match        https://parks2.bandainamco-am.co.jp/login.html*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_registerMenuCommand
-// @connect      你的Render域名.onrender.com  # 部署后替换！
+// @connect      neverlandat.onrender.com
 // ==/UserScript==
 
 (function(){'use strict';
-// ========== 【仅需改这2项，无其他配置】==========
-const BACKEND = "https://你的Render域名.onrender.com"; // 替换成你的
-const MASTER_KEY = "你生成的32位随机密钥"; // 和后端Render环境变量完全一致
+// ========== 【配置】==========
+const BACKEND = "https://neverlandat.onrender.com"; // 
+const MASTER_KEY = "5ab6d862cb16816f62ee172c55018fef"; // 
 // ==============================================
 
 const refs = {}; // 存储指令执行后的DOM引用
