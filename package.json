@@ -1,0 +1,6 @@
+{
+  "name":"namco-email-lock-v2",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"express":"^4.19.2"}
+}
